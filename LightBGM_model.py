@@ -994,7 +994,6 @@ for i in range(num):
 test['客厅总面积'] = ws_s
 del train_wss, train_ws, ws_s, num, i, temp, test_wss, test_ws
 
-# 小模型测试 对于区1进行测试
 
 test = test.sort_values(by=['id'], ascending=(True))
 test_id = list(copy.deepcopy(test['id']))
